@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/user"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_your_matches"
+            android:icon="@drawable/people"
+            android:title="Your matches" />
+        <item
+            android:id="@+id/nav_upcoming_matches"
+            android:icon="@drawable/field"
+            android:title="Upcoming matches" />
+        <item
+            android:id="@+id/nav_setup_match"
+            android:icon="@drawable/ball"
+            android:title="Set up a match" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>
